@@ -113,12 +113,12 @@ if(is_file($meta_file)) {
 				</div>
 
 				<?php if(page_exists('layouts:sn-icons')): ?>
-				<div class="social"><?php echo p_wiki_xhtml('layouts:sn-icons'); ?></div>
-				<? endif; ?>
+				    <div class="social"><?php echo p_wiki_xhtml('layouts:sn-icons'); ?></div>
+				<?php endif; ?>
 
 				<?php if(page_exists('layouts:top-links')): ?>
-				<nav class="links"><?php echo p_wiki_xhtml('layouts:top-links'); ?></nav>
-				<? endif; ?>
+				    <nav class="links"><?php echo p_wiki_xhtml('layouts:top-links'); ?></nav>
+				<?php endif; ?>
 
 				<?php
 				$toc = tpl_toc(true);
@@ -127,7 +127,7 @@ if(is_file($meta_file)) {
 
 				<?php if(page_exists('layouts:navigation')): ?>
 				<div class="navigation"><?php echo p_wiki_xhtml('layouts:navigation'); ?></div>
-				<? endif; ?>
+				<?php endif; ?>
 
 				<div class="clear"></div>
 
@@ -135,7 +135,7 @@ if(is_file($meta_file)) {
 
 					<?php if(page_exists('layouts:bottom-links')): ?>
 					<nav class="links"><?php echo p_wiki_xhtml('layouts:bottom-links'); ?></nav>
-					<? endif; ?>
+					<?php endif; ?>
 
 					<cite>Sudaraka.Org &mdash; <a href="/copyright/#article-page-content-on-sudarakaorg">Copyright</a> 2012, 2013 <a rel="me" href="/about-sudaraka-wijesinghe/">Sudaraka Wijesinghe</a>.</cite>
 					<p>
